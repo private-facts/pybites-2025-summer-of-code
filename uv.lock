@@ -1,0 +1,20 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "pybites-2025-summer-of-code"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "xml2dict" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "xml2dict", specifier = ">=0.2.2" }]
+
+[[package]]
+name = "xml2dict"
+version = "0.2.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/94/5d/7ee47d1b0e976b55a49d331e328038adba21e3be28b8c2cb6abd2ac713f1/XML2Dict-0.2.2.tar.gz", hash = "sha256:20e4b48926ba3537b57587496c46d2c96fc5cf5707a0bdd8a7b1368122e0e964", size = 3804, upload-time = "2014-10-24T09:02:38.043Z" }

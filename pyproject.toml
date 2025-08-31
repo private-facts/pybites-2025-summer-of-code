@@ -1,0 +1,9 @@
+[project]
+name = "pybites-2025-summer-of-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "xml2dict>=0.2.2",
+]
