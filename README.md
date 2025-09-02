@@ -17,7 +17,7 @@ Your mission:
 ✅ Write a scraper that crawls pybit.es
     ```python
     import httpx
-    r = httpx.get('https://https://pybit.es/sitemap_index.xml
+    r = httpx.get('https://https://pybit.es/sitemap_index.xml)
     print(r.t)
     ```
 
@@ -27,6 +27,9 @@ find dead links (Please use the sitemaps in the link above)
 - find a link
 - try it
 - If fails, write it down
+    - Only looking for Error 404, since other kinds of codes other than 200 (like 301 - Permanently Moved) seemed to work.
+    - Follow-up question: Are there other codes besides 404 that indicate dead links?
+    - Follow-up question: Do we want to flag other codes (like 301) that work, but aren't in the 200 range in some way?
 
 ✅ Export results in CSV/JSON (and maybe even PDF!)
 
@@ -127,3 +130,7 @@ Create reports that offer insights on a real blog archive
 
 Co-authored-by: Blaise Pabon <blaise@gmail.com>
 Co-authored-by: CodeConnoisseur74 <info@focusbit.io>
+Co-authored by: Anschel Burk <anschel.burk@gmail.com>
+Co-authored-by: Kishan Patel <kishanpatel789@gmail.com>
+Co-authored-by: Rana Khalil <r.ash.khalil96@gmail.com>
+Co-authored-by: Bob Belderbos <bob@pybit.es>
