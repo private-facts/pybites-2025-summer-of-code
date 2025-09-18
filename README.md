@@ -3,7 +3,6 @@
 ## First, have fun
 
 This is a friendly, open challenge—no PRs or grading. Just build something cool and show it off in the Pybites community! 🧠✨
-
 This Community Code Challenge invites you to build a powerful Blog Scraper using our very own https://pybit.es blog.
 
 ## 🧪 The Scraping Challenge
@@ -54,37 +53,39 @@ argparse, Typer, or click — to build a user-friendly CLI
 
 ## Opinionated Example using Incremental Variations
 
-### Version 0 - Naive Exercise
+### Version 0 - The Naive Exercise
 
-✅ Write a scraper that crawls pybit.es
-    ```python
-    import httpx
-    r = httpx.get('https://https://pybit.es/sitemap_index.xml)
-    print(r.t)
-    ```
-✅ Extract blog metadata (get the list of pages on the site)....
-and for each blog post, find dead links (Please use the sitemaps in the link above)
+✅ get the list of blog articles on pybit.es from the site map....and for each article, find dead links
 
 - find a link
-- try it
-- If fails, write it down
+- get the headers (faster than the whole thing.)
+- If fails...
     - Only looking for Error 404, since other kinds of codes other than 200 (like 301 - Permanently Moved) seemed to work.
     - Follow-up question: Are there other codes besides 404 that indicate dead links?
     - Follow-up question: Do we want to flag other codes (like 301) that work, but aren't in the 200 range in some way?
 
+https://stackoverflow.com/a/73302844
+1. parse links from one article, use bs4 or newspaper3k
+2. check links for dead ones
+3. process links in sequence
 
-### Version 2 - Add asynch client
+### Version 2 - Add asynch client to make it faster
 
-### Version 3 - Add htttpx.asynch client
+4. experiment with httpx.AsyncClient() and/or aiohttp
+- https://tonybaloney.github.io/posts/why-isnt-python-async-more-popular.html#backend-fragmentation
+- https://newspaper.readthedocs.io/en/latest/
+- https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-all
 
-## Ensemble ?
+### Version 3 - Add threads to make it multi-processing client
+- (and/or concurrent.futures == stdlib)
+
+## Tips for Ensemble Coding sessions...
 
 ### Collaboration tools:
 
 - Mobtimer: https://mobti.me/pybites-ensemble
 
 ### Contributor headers
-
 
 Co-authored-by: Blaise Pabon <blaise@gmail.com>
 Co-authored-by: CodeConnoisseur74 <info@focusbit.io>
