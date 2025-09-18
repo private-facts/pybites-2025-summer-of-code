@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.13.5",
     "httpx>=0.28.1",
+    "lxml[html-clean]>=6.0.1",
+    "newspaper3k>=0.2.8",
     "xmltodict>=0.14.2",
 ]
