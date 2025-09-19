@@ -1,7 +1,15 @@
-
 import xmltodict
+
+from bs4 import BeautifulSoup
 import httpx
+from pprint import pp
+
 NOT_FOUND = 404
+
+def is_dead_link(link: str) -> bool:
+    resp = httpx.head(link)
+    return 400 <= resp.status_code < 600
+
 def main(url = None):
     """ Make a set of URLs.
 
@@ -13,7 +21,7 @@ def main(url = None):
     """
 
     url = 'https://pybit.es/sitemap_index.xml'
-
+    dead_links = {}
     try:
         # Send a GET request with the Accept header set to application/xml
         response = httpx.get(url, headers={"Accept": "application/xml"})
@@ -37,8 +45,26 @@ def main(url = None):
                 print(f"--Oh Noo: Broken link: {link}")
         """
         # get it working for one link
-        article = links[1] # or another N depending if it's an interesting article
-        print(article)
+        articles = links[:10]
+        for article in articles:
+            print("checking", article) 
+            response = httpx.get(article)
+            soup = BeautifulSoup(response.text, 'html.parser')    
+            html = soup.find("div", class_="entry-content")
+            links = html.find_all('a')
+        
+            for li in links:
+                link = li.get('href')
+                if link in dead_links:
+                    is_dead = dead_links[link]
+                else:
+                    is_dead = is_dead_link(link)
+                    dead_links[link] = is_dead
+                if is_dead:
+                    print(link)
+
+        pp(dead_links)
+
         # 1. scrape link (newspaper3k or bs4) finding all relevant links (not sidebar/navbar stuff)
         # 2. use httpx.head like above to see if dead or alive (if not enough links process various articles)
         # 3. time sequence solution, speed it up with httpx and/or aiohttp (and/or concurrent.futures == stdlib)
@@ -49,6 +75,6 @@ def main(url = None):
         print(f"An error occurred while requesting {exc.request.url!r}: {exc}")
     except httpx.HTTPStatusError as exc:
         print(f"Error response {exc.response.status_code} while requesting {exc.request.url!r}: {exc}")
-        
+
 if __name__ == "__main__":
     main()

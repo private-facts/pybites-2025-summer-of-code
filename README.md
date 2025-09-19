@@ -93,3 +93,4 @@ Co-authored by: Anschel Burk <anschel.burk@gmail.com>
 Co-authored-by: Kishan Patel <kishanpatel789@gmail.com>
 Co-authored-by: Rana Khalil <r.ash.khalil96@gmail.com>
 Co-authored-by: Bob Belderbos <bob@pybit.es>
+Co-authored-by: John Safrit <eedesigner@gmail.com>
