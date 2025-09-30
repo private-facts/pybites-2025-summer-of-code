@@ -1,0 +1,254 @@
+{
+    "https://pybit.es/articles/from-sql-to-sqlmodel-a-cleaner-way-to-work-with-databases-in-python/": [
+        true,
+        1759250412
+    ],
+    "https://tiangolo.com/": [
+        true,
+        1759250412
+    ],
+    "https://fastapi.tiangolo.com/": [
+        true,
+        1759250412
+    ],
+    "https://pydantic.dev/": [
+        true,
+        1759250412
+    ],
+    "https://en.wikipedia.org/wiki/SQL_injection": [
+        true,
+        1759250413
+    ],
+    "https://github.com/astral-sh/uv": [
+        true,
+        1759250413
+    ],
+    "https://docs.sqlalchemy.org/en/20/dialects/index.html": [
+        true,
+        1759250413
+    ],
+    "https://pybit.es/articles/how-to-handle-environment-variables-in-python/": [
+        true,
+        1759250414
+    ],
+    "https://sqlitebrowser.org/": [
+        true,
+        1759250414
+    ],
+    "https://sqlmodel.tiangolo.com/learn/": [
+        true,
+        1759250414
+    ],
+    "https://pybit.es/articles/fastapi-deployment-made-easy-with-docker-and-fly-io/": [
+        true,
+        1759250415
+    ],
+    "https://streamlit.io": [
+        true,
+        1759250415
+    ],
+    "https://docs.streamlit.io/deploy/streamlit-community-cloud": [
+        true,
+        1759250416
+    ],
+    "https://pypi.org/project/requests/": [
+        true,
+        1759250416
+    ],
+    "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS": [
+        true,
+        1759250416
+    ],
+    "https://docs.pydantic.dev/latest/concepts/pydantic_settings/": [
+        true,
+        1759250416
+    ],
+    "https://fastapi.tiangolo.com": [
+        true,
+        1759250416
+    ],
+    "https://pybit.es/catalogue/the-pdm-program/": [
+        true,
+        1759250417
+    ],
+    "https://www.docker.com": [
+        true,
+        1759250417
+    ],
+    "https://fly.io": [
+        true,
+        1759250417
+    ],
+    "https://github.com/feoh/progress-watchdog/blob/main/aispeedrun.md": [
+        true,
+        1759250418
+    ],
+    "https://docs.astral.sh/uv/": [
+        true,
+        1759250418
+    ],
+    "https://github.com/feoh/progress-watchdog/blob/main/pyproject.toml": [
+        true,
+        1759250418
+    ],
+    "https://pypi.org/": [
+        true,
+        1759250418
+    ],
+    "https://github.com/feoh/progress-watchdog/blob/main/src/progress_watchdog/__init__.py": [
+        true,
+        1759250418
+    ],
+    "https://github.com/feoh/progress-watchdog": [
+        true,
+        1759250419
+    ],
+    "https://textual.textualize.io/": [
+        true,
+        1759250419
+    ],
+    "https://www.python.org/dev/peps/pep-0420/": [
+        true,
+        1759250419
+    ],
+    "https://astral.sh": [
+        true,
+        1759250420
+    ],
+    "https://docs.astral.sh/uv/getting-started/installation/": [
+        true,
+        1759250420
+    ],
+    "https://brew.sh/": [
+        true,
+        1759250420
+    ],
+    "https://docs.astral.sh/uv/concepts/projects/layout/": [
+        true,
+        1759250420
+    ],
+    "https://docs.astral.sh/uv/reference/cli/#uv-init": [
+        true,
+        1759250420
+    ],
+    "https://typing.python.org/en/latest/spec/distributing.html#packaging-typed-libraries": [
+        true,
+        1759250420
+    ],
+    "https://github.com/JasperHG90/uv-monorepo": [
+        true,
+        1759250421
+    ],
+    "http://localhost:8000/docs": [
+        false,
+        1759250421
+    ],
+    "https://www.heroku.com": [
+        true,
+        1759250421
+    ],
+    "https://read-radar-api.fly.dev/docs": [
+        true,
+        1759250422
+    ],
+    "http://fly.io/": [
+        true,
+        1759250422
+    ],
+    "https://textblob.readthedocs.io/en/dev/": [
+        true,
+        1759250422
+    ],
+    "https://docs.sqlalchemy.org/en/20/orm/extensions/automap.html": [
+        true,
+        1759250422
+    ],
+    "https://github.com/bbelderbos/nlp-bite-feedback": [
+        true,
+        1759250423
+    ],
+    "https://pybit.es/articles/add-makefile-to-python-project/": [
+        true,
+        1759250423
+    ],
+    "https://docs.sqlalchemy.org/en/20/orm/extensions/declarative/api.html#module-sqlalchemy.ext.declarative": [
+        true,
+        1759250424
+    ],
+    "https://gist.github.com/bbelderbos/3342b479dad904397afb31d6db42d965": [
+        true,
+        1759250424
+    ],
+    "https://www.askmarvin.ai": [
+        false,
+        1759250424
+    ],
+    "https://pybit.es/articles/create-project-less-python-utilities-with-uv-and-inline-script-metadata/": [
+        true,
+        1759250425
+    ],
+    "https://pybites.circle.so/": [
+        true,
+        1759250425
+    ],
+    "https://pybites.circle.so/c/open-discussion/regular-pybite-query-a-nested-data-structure": [
+        true,
+        1759250426
+    ],
+    "https://pybitesplatform.com/bites/query-a-nested-data-structure/": [
+        true,
+        1759250426
+    ],
+    "https://github.com/greywidget/muta-parms/blob/main/article.MD#what-is-a-python-variable": [
+        true,
+        1759250426
+    ],
+    "https://github.com/greywidget/muta-parms/blob/main/article.MD#python-passes-parameters-by-reference": [
+        true,
+        1759250426
+    ],
+    "https://pythontutor.com/": [
+        true,
+        1759250427
+    ],
+    "https://i0.wp.com/github.com/greywidget/muta-parms/blob/main/visual_1.png?ssl=1": [
+        false,
+        1759250427
+    ],
+    "https://github.com/greywidget/muta-parms/blob/main/article.MD#take-care-when-programming-with-mutable-parameters": [
+        true,
+        1759250427
+    ],
+    "https://en.wikipedia.org/wiki/Side_effect_(computer_science)": [
+        true,
+        1759250427
+    ],
+    "https://docs.python.org/3/library/copy.html": [
+        true,
+        1759250427
+    ],
+    "https://github.com/greywidget/muta-parms/blob/main/article.MD#mutable-types-as-parameter-defaults": [
+        true,
+        1759250427
+    ],
+    "https://github.com/greywidget/muta-parms/blob/main/article.MD#using-a-mutable-type-as-a-paramater-default-should-be-avoided-if-possible-because-it-can-lead-to-unexpected-and-inconsistent-behaviour": [
+        true,
+        1759250427
+    ],
+    "https://believeresourcing.com/": [
+        true,
+        1759250429
+    ],
+    "https://pybitesplatform.com": [
+        true,
+        1759250429
+    ],
+    "https://pybit.es/newsletter/": [
+        true,
+        1759250430
+    ],
+    "https://pybites.circle.so": [
+        true,
+        1759250430
+    ]
+}

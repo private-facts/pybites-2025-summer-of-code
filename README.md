@@ -15,18 +15,22 @@ Build something that’s useful, insightful, and fun to work on 💡
 
 ### 🧠 Learning Goals
 
-- Practice real-world HTML scraping
-- Learn how to parse and clean data from messy layouts
-- Build a tool that checks for broken links at scale
-- Create reports that offer insights on a real blog archive
-- (Optional) Explore PDF creation and CLI tooling
+[ ]Practice real-world HTML scraping
+[ ] Learn how to parse and clean data from messy layouts
+[ ] Build a tool that checks for broken links at scale
+[ ] Create reports that offer insights on a real blog archive
+[ ] (Optional) Explore PDF creation and CLI tooling[ ]
+[ ]## 🧩 What You’ll Build
 
-### 🧩 What You’ll Build
-
-A tool that:
+### Build A tool that:
 
 [ ] Scrapes all articles from the PyBites blog. Because its feed (https://pybit.es/feed/) only holds the last 10 articles, you want to use the sitemaps listed here -> https://pybit.es/sitemap_index.xml
-[ ] Extracts post metadata like title, URL, date, author, and tags
+[ ] Extracts post metadata like 
+    - title, 
+    - URL, 
+    - date, 
+    - author, 
+    - and tags
 [ ] Checks all internal and external links for broken URLs (status 400+)
 [ ] Outputs structured data in CSV or JSON format
 [ ] Highlights which articles contain dead links 🛠️
